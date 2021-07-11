@@ -16,7 +16,7 @@ class SQL_instance():
 	
 	def __init__(self):
 		self.isConnected = 0
-		self.read_sql_settings()
+		#self.read_sql_settings()
         
         self.sql_server = '127.0.0.1:5432'
         self.sql_database = 'postgres'
